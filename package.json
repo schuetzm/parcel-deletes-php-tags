@@ -1,0 +1,14 @@
+{
+  "name": "parcel-deletes-php-tags",
+  "version": "0.0.1",
+  "description": "Parcel deletes PHP tags",
+  "private": true,
+  "source": "src/index.html",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}

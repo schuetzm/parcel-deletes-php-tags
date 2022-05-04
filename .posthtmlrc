@@ -1,0 +1,8 @@
+{
+  "render": {
+    "directives": [{"name": "?php", "start": "<", "end": ">"}]
+  },
+  "directives": [{"name": "?php", "start": "<", "end": ">"}],
+  "plugins": {
+  }
+}
