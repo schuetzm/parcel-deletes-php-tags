@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "parcel": "^2.5.0"
+  },
+  "resolutions": {
+    "**/@parcel/transformer-posthtml": "link:./transformer-posthtml"
   }
 }
