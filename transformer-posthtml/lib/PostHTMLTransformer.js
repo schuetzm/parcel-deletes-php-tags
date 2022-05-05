@@ -163,7 +163,8 @@ var _default = new (_plugin().Transformer)({
       program: (0, _posthtmlParser().parser)(await asset.getCode(), {
         lowerCaseAttributeNames: true,
         sourceLocations: true,
-        xmlMode: asset.type === 'xhtml'
+        xmlMode: asset.type === 'xhtml',
+        directives: config.directives
       })
     };
   },
